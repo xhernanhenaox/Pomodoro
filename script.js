@@ -53,7 +53,7 @@ function cambiarContexto(contexto) {
         botonContexto.classList.remove('active');
     });
     html.setAttribute('data-contexto', contexto);
-    banner.setAttribute('src', `-/imagenes/${contexto}.png`);
+    banner.setAttribute('src', `./imagenes/${contexto}.png`);
     switch (contexto) {
         case "enfoque":
             titulo.innerHTML = `
